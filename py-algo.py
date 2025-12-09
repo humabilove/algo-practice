@@ -1,8 +1,8 @@
 import sys
 
 def main():
-    input = sys.stdin.readline # 입력 빠르게
-    print("Hello World!")
+    input = sys.stdin.readline
+    
     
 if __name__ == "__main__":
     main()
