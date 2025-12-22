@@ -1,4 +1,4 @@
-# BOJ 10807
+# BOJ 10818
 
 import sys
 
@@ -7,8 +7,8 @@ def main():
     
     N = int(input())
     arr = list(map(int, input().split()))
-    num = int(input())
-    print(arr.count(num))
+    
+    print(min(arr), max(arr))
 
 if __name__ == "__main__":
     main()

@@ -9,7 +9,6 @@ def main():
     
     arr = list(map(int, input().split()))
 
-    # trailing space 없이 출력하려면 결과를 모아 한 번에 출력합니다
     res = [x for x in arr if x < v]
     if res:
         print(*res)
