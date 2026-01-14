@@ -1,1 +1,2 @@
-print(divmod(3,20))
+for i in range(3, 3):
+    print(1)
